@@ -1,0 +1,61 @@
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .arrow-down {
+    font-size: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  margin:30px 0;
+  justify-content: space-evenly;
+}
+
+.card1{
+    width: 500px; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+
+}
+
+.card1 img{
+    max-width: 100%;
+}
+
+.konteks1 p{
+    text-align: justify;
+    margin-bottom: 35px;    
+    
+}
+
+.joe {
+    color: black;
+}
+
+.p {
+    color: black;
+}
+
+.konteks1 a{
+    background-color: rgb(0, 0, 0);
+    padding: 15px 24px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.konteks1 a:hover{
+    background-color: white;
+    color:black;
+    border: 1px solid black;
+}
